@@ -8,6 +8,7 @@ body {
     background: #f6f6f6;
     font-family: 'Lora', serif;
 }
+
 h1, 
 h2, 
 h3, 
@@ -25,7 +26,7 @@ a {
 }
 
 header {
-    background: #008489;
+    background: #02849b;
     height: 66px;
 }
 header * {
@@ -38,13 +39,13 @@ header .logo {
     margin-left: 2em; 
  }
 
-header .logo-txt {
+header .logo-text {
     margin: 9px;
     font-family: 'Candal', serif;
  }
 
-header .logo-txt span {
-    color: #00f7ff;
+ header .logo-text span {
+    color: #07def1;
  }
 
 header ul {
@@ -86,7 +87,7 @@ header ul li ul li a.logout {
 }
 
 header ul li ul li a:hover {
-    background: #a1a1a1
+    background: #dde2e2
 }
 
 header ul li a {
@@ -97,8 +98,8 @@ header ul li a {
 }
 
 header ul li a:hover {
-    background:#00484b;
-    transition: 0.5s;
+    background:#029ea3;
+    transition: 0.7s;
 
 }
 
@@ -114,6 +115,7 @@ header menu-toggle {
 .post-slider {
     position:relative;
 }
+
 .post-slider .slider-title {
     text-align: center;
     margin: 30px auto;
@@ -136,6 +138,7 @@ header menu-toggle {
     color: #006669;
     cursor: pointer;
 }
+
 .post-slider .post-wrapper {
     width: 84%;
     height: 350px;
@@ -143,6 +146,7 @@ header menu-toggle {
     overflow: hidden;
     padding: 10px 0px 10px 0px;
 }
+
 .post-slider .post-wrapper .post {
     height: 330px;
     width: 300px;
@@ -152,11 +156,13 @@ header menu-toggle {
     border-radius: 5px;
     box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
 }
+
 .post-slider .post-wrapper .post .post-info {
     height: 130px;
     padding: 0px 5px;
-    
 }
+
+
     .post-slider .post-wrapper .post .slider-image {
     width: 100%;
     height: 200px;
@@ -177,8 +183,8 @@ header menu-toggle {
     }
     .showing {
         max-height: 100em;
-
     }
+    
     header ul li {
         width: 100%;
     }
